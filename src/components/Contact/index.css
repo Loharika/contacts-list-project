@@ -1,0 +1,78 @@
+
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    padding: 20px 40px;
+    margin: 20px 30px;
+    width:300px;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    max-height: 350px;
+    border-radius: 6px;
+  }
+  
+  .name {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .email {
+    color: #594d6d;
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 2px;
+  }
+  .contact-logo{
+      width:65px;
+      height: 65px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background-color: cornflowerblue;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 23px;
+  }
+  .logo-name-number{
+      display: flex;
+      align-items: center;
+  }
+  .name-number{
+      display: flex;
+        flex-direction: column;
+        padding:20px 20px;
+  }
+  .email-contact-type{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin:10px 0px;
+  }
+  .contact-type{
+    margin:10px 0px;
+  }
+  .icon{
+      width: 23px;
+      height: 23px;
+      margin:5px
+  }
+  .contact-number,.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

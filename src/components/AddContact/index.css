@@ -1,0 +1,100 @@
+.add-contact-form-container{
+    width:100vw;
+    min-height:85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-contact-form{
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    padding: 80px 100px;
+    min-width:300px;
+}
+.input-label,.contact-type{
+    margin:5px 0px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  color: #475569;
+}
+.heading-text{
+    text-align: center;
+}
+.contact-number-input-field,.email-input-field,.name-input-field{
+    font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 2px 4px 2px 4px;
+  outline: none;
+}
+.contact-type-radio-button{
+    color: #1b5ab1;
+    width:15px;
+    height: 15px;
+}
+.contact-type-option{
+    display: flex;
+    align-items: center;
+
+}
+
+@media screen and (min-width: 992px) {
+    .add-contact-form{
+        box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+        padding: 64px 48px 64px 48px;
+        padding:25px 20px;
+        min-width:400px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .add-contact-form{
+        box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+        padding: 64px 48px 64px 48px;
+        padding:25px 20px;
+        min-width:250px;
+    }
+  }
+  .contact-details{
+      display: flex;
+      flex-direction: column;
+      margin:15px 0px;
+  }
+  .required-fields-text{
+    color:#475569;
+    font-weight: bold;
+  }
+  .contact-type-label{
+    color:black
+  }
+  .error-message{
+    color:red
+  }
+  .add-btn-container{
+    text-align: center;
+  }
+
+  .add-contact-btn{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    background-color: #0b69ff;
+    border-radius: 8px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    flex-grow: none;
+padding:0px 20px;
+  }
+  
+  .toaster-text{
+      color:#0b69ff;
+      font-weight: bold;
+  }

@@ -1,0 +1,20 @@
+.trigger-button {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    background-color: #0b69ff;
+    border-radius: 8px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    flex-grow: none;
+    padding:0px 20px;
+   }
+   .popup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }

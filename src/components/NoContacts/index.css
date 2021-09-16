@@ -1,0 +1,25 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  .no-contacts-add-contact-btn{
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: #0b69ff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .no-contacts-found{
+    width:100px;
+    height:100px;
+  }
