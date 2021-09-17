@@ -7,11 +7,13 @@ const Header = props => {
     <nav className="nav-header">
       <div className="nav-content">
         <div className="nav-bar-mobile-logo-container">
-          <img
-            className="website-logo"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Google_Contacts_icon.svg/1200px-Google_Contacts_icon.svg.png"
-            alt="website logo"
-          />
+        <Link to="/">
+            <img
+              className="website-logo"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Google_Contacts_icon.svg/1200px-Google_Contacts_icon.svg.png"
+              alt="website logo"
+            />
+          </Link>
         </div>
 
         <div className="nav-bar-large-container">
